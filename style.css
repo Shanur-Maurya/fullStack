@@ -27,8 +27,8 @@ html {
     justify-content: space-around;
     align-items: center;
     position: fixed;
-    top: 0; /* Position navbar at the top */
-    z-index: 999; /* Ensure it's above other content */
+    top: 0; 
+    z-index: 999; 
     border-radius: 15px;
   }
   
@@ -70,7 +70,7 @@ html {
   .devinfo {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Align items vertically */
+    align-items: center; 
     font-family: 'Source Code Pro', monospace;
     padding-left: 20px;
     display: -webkit-box;
@@ -93,11 +93,11 @@ html {
     font-size: 55px;
   }
   .About {
-    overflow: hidden; /* Hide overflowing characters */
-    border-right: 0.15em solid orange; /* Add a border to simulate the cursor */
-    white-space: nowrap; /* Prevent text from wrapping */
-    margin: 0 auto; /* Center the text */
-    font-size: 30px;
+    overflow: hidden; 
+    border-right: 0.15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    font-size: 45px;
     animation: typing 3s steps(40) infinite, blink-caret 0.75s step-end infinite;
   }
   
@@ -142,20 +142,23 @@ html {
   }
   
   .more {
+    
     margin-top: 30px;
     font-family: 'Fira Sans', sans-serif;
   }
-  
+  .more pre{
+     font-size: 28px;
+  }
   .devpic {
     height: 58vh;
   }
   .devpic {
     width:60vh;
     height: 58vh;
-    background-image: url('a.jpg'); /* Specify the path to your background image */
-    background-size: cover; /* Cover the entire container */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-position: center; /* Center the background image */
+    background-image: url('a.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -254,3 +257,13 @@ html {
   .det{
     text-align: center;
   }
+
+  /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
